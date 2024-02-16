@@ -29,6 +29,8 @@ const cors = require('cors');
 const openInEditor = require('launch-editor-middleware')
 
 ...
+  devServer: {
+    ...
     setupMiddlewares: (middlewares) => {
       middlewares.unshift({
         middleware: cors()
