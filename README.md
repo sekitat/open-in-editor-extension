@@ -22,7 +22,7 @@ bun run index.ts
 $ yarn add cors launch-editor-middleware
 ```
 
-`cors`, `launch-editor-middleware` をインストールして LFB の Webpack DevServer に `middleware`を追加する。
+`cors`, `launch-editor-middleware` をインストールして `webpack.dev.js` の devServer に `middleware`を追加する。
 
 ```js
 const cors = require('cors');
