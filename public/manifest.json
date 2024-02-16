@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "open .rb in editor",
-  "description": "Open .rb files in editor",
+  "name": "open in editor extension",
+  "description": "Open files in editor extension",
   "version": "1.0.0",
   "devtools_page": "devtools.html",
   "action": {
