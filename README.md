@@ -46,9 +46,7 @@ const openInEditor = require('launch-editor-middleware')
 
 ## リクエスト先を port 3035 に設定する
 
-VueDevTools の open in editor はデフォルトでポート 3000 番にリクエストを送るので、Webpack DevServer の 3035 番に
-
-`app/javascript/packs/utility/create_vue_instance.ts` に以下設定を追記する
+VueDevTools の open in editor はデフォルトでポート 3000 番にリクエストを送るので、リクエスト先を Webpack DevServer の `http://localhost:3035/` に向ける設定を `app/javascript/packs/utility/create_vue_instance.ts` に追記する
 
 ```ts
 if (process.env.NODE_ENV !== "production") {
