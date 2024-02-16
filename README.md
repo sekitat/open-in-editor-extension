@@ -70,7 +70,7 @@ devServer を再起動する
 1. 拡張機能の pin を固定して、「設定」から rails routes を出力したものをコピペして保存する。
 2. devTools を開き直して、devTools の アプリケーション > IndexedDB > routes_db に routes が保存されていることを確認してください。
 
-### 動かない場合
+## 動かない場合
 
 - 拡張機能の読み込みをし直した後は画面のリロードをしてください。
 - API の一覧の取得は devTools が開いていないと動きません。devTools を開き直してください。
