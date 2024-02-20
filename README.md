@@ -65,7 +65,7 @@ devServer を再起動する
 
 `dist` フォルダにファイル一式がビルドされているので、Chrome > 拡張機能 > 「パッケージ化されていない拡張機能を読み込む」から dist を選択
 
-## rails Routes を IndexedDB に保存する
+## rails routes を IndexedDB に保存する
 
 1. 拡張機能の pin を固定して、「設定」から rails routes を出力したものをコピペして保存する。
 2. devTools を開き直して、devTools の アプリケーション > IndexedDB > routes_db に routes が保存されていることを確認してください。
