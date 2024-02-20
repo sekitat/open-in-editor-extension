@@ -19,7 +19,7 @@ bun run index.ts
 ## launch-editor, cors middleware を追加する
 
 ```sh
-$ yarn add cors launch-editor-middleware
+$ yarn add cors launch-editor-middleware --dev
 ```
 
 `cors`, `launch-editor-middleware` をインストールして `webpack.dev.js` の devServer に `middleware`を追加する。
